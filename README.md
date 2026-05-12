@@ -1,6 +1,6 @@
 # SBOM Trivy Scanner
 
-This project provides a script to scan SBOM (Software Bill of Materials) files for specific vulnerable packages listed in a text file. It uses **Trivy** to normalize SBOMs and **jq** to query them for matches.
+This is a script to scan SBOM (Software Bill of Materials) files for specific vulnerable packages listed in a text file. It uses **Trivy** to normalize SBOMs and **jq** to query them for matches.
 
 ## How it Works
 The `scan_sbom.sh` script:
